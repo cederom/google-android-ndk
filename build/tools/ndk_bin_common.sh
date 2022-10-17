@@ -19,7 +19,7 @@ HOST_OS=$(uname -s)
 case $HOST_OS in
   Darwin) HOST_OS=darwin;;
   Linux) HOST_OS=linux;;
-  FreeBsd) HOST_OS=freebsd;;
+  FreeBSD) HOST_OS=linux;;
   CYGWIN*|*_NT-*) HOST_OS=cygwin;;
   *) echo "ERROR: Unknown host operating system: $HOST_OS"
      exit 1
